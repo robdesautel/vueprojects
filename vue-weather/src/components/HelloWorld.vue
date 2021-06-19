@@ -27,6 +27,7 @@ export default {
     }
   }
 }
+//This is my test comment
 </script>
 
 <style scoped>
