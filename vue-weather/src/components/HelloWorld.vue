@@ -6,7 +6,7 @@
       </ul>
     </div>
     <div class="col">
-
+      <HeroSection/>
     </div>
     <div class="col">
 
@@ -16,14 +16,16 @@
 
 <script>
 import LiButton from "./buttons/libutton.vue"
+import HeroSection from "./hero/hero.vue"
 export default {
   name: 'HelloWorld',
   components: {
     LiButton,
+    HeroSection
   },
   data(){
     return{
-      buttonNames: ['home', 'about', 'contact me', 'profile', 'another button', 'cool buttons']
+      buttonNames: ['home', 'about', 'contact me', 'profile', 'another button', 'cool buttons'],
     }
   }
 }
