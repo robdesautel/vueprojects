@@ -1,8 +1,9 @@
 const execa = require("execa");
 const fs = require("fs");
-console.log("running");
+
 (async () => {
     try{
+        console.log("trying");
         await execa("git", ["checkout", "--orphan", "gh-pages"]);
         console.log("Building started...");
         await execa("npm", ["run", "build"]);
