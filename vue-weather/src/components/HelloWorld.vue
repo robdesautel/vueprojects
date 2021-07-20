@@ -30,7 +30,7 @@ export default {
   },
   data(){
     return{
-      buttonNames: ['home', 'about', 'contact me', 'profile', 'another button', 'cool buttons'],
+      buttonNames: ['home', 'about', 'contact me', 'profile', 'another button', 'coolbuttons'],
     }
   }
 }
